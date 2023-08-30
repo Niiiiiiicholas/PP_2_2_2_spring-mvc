@@ -12,7 +12,7 @@ import java.util.Optional;
 @Controller
 public class CarController {
 
-    private CarService carService;
+    private final CarService carService;
     @Autowired
     public CarController(CarService carService) {
         this.carService = carService;
