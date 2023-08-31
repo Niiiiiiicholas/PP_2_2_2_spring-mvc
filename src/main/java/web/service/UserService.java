@@ -11,5 +11,5 @@ public interface UserService {
     Object getUserById(long id);
     void addUser(User user);
     void removeUser(long id);
-    void updateUser(@Valid User user);
+    void updateUser(User user);
 }
