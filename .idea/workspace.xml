@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ceebed-1b71-4a5b-8be3-cf50cee43a14" name="Changes" comment="task 231">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="38ceebed-1b71-4a5b-8be3-cf50cee43a14" name="Changes" comment="task 231 last">
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693502141767</updated>
-      <workItem from="1693502142791" duration="15672000" />
+      <workItem from="1693502142791" duration="16031000" />
     </task>
     <task id="LOCAL-00001" summary="task 231 new3">
       <option name="closed" value="true" />
@@ -174,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693517680613</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="task 231 last">
+      <option name="closed" value="true" />
+      <created>1693518047268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693518047268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +193,7 @@
     <MESSAGE value="task 222 new3" />
     <MESSAGE value="task 231 new3" />
     <MESSAGE value="task 231" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 231" />
+    <MESSAGE value="task 231 last" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 231 last" />
   </component>
 </project>
