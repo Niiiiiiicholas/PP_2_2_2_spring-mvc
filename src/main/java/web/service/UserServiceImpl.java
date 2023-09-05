@@ -2,6 +2,7 @@ package web.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
 import web.dao.UserDAO;
 import web.model.User;
@@ -10,7 +11,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @Service
-@Transactional
+@Transactional(readOnly = true)
 public class UserServiceImpl implements UserService {
 
     private final UserDAO userDAO;
@@ -31,6 +32,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(isolation = Isolation.SERIALIZABLE)
     public void addUser(User user) {
         userDAO.addUser(user);
     }
